@@ -285,7 +285,7 @@ def mrt_deploy():
 
     # NOTE: the path to node_modules changes in Meteor 0.6.5
     #       bundle/programs/server/node_modules
-    with cd('%s/%s/bundle/server/node_modules' % (
+    with cd('%s/%s/bundle/programs/server/node_modules' % (
             env.vhosts[env.vhost]['vhostpath'],
             env.vhosts[env.vhost]['rundir'])):
         # reinstall fibers
