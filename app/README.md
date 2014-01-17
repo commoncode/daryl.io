@@ -1,2 +1,4 @@
 daryl.io
 ========
+
+THE BLOG
